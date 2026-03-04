@@ -19,8 +19,36 @@ A deep learning-based desktop application that classifies MRI scans into 44 diff
 *   **GUI:** Tkinter
 *   **Environment Management:** uv / venv
 
+## 🏋️ Training
+The model was trained on Google Colab using a T4 GPU to handle the 44-class complexity efficiently.
+Base Model: EfficientNetV2B0 (ImageNet weights)
+Epochs: 50
+Input Size: 224x224
+
+
+
+
+
 
 <img width="299" height="397" alt="image" src="https://github.com/user-attachments/assets/da2f82ae-4da5-4b3a-b60f-396dd15562d7" />
+
+
+
+
+
+
+## 🖥️ Usage
+To launch the classifier:
+
+python chatbot.py
+
+
+1.Click "Select MRI Image".
+2.Choose a .jpg, .jpeg, or .png file.
+3.The app will display the predicted class and the confidence percentage.
+
+
+
 
 ## 📂 Project Structure
 ```text
